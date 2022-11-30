@@ -1,0 +1,74 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+
+form{
+    margin: auto;
+    width: 53%;
+    padding-top: 2rem;
+    color: #232354;
+}
+
+form .form-group textarea{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.textdiv{
+    padding-top: 1rem;
+   padding-left: 13.3rem;
+   padding-bottom: 1rem;
+}
+
+.convert{
+     background-color:#232354;
+     color: white;
+}
+
+.convert:hover{
+    background-color:#484880;
+}
+
+@media screen and (max-width:1200px) {
+    form{
+        margin: auto;
+        width: 63%;
+    }
+    .textdiv{
+       padding-left: 9rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    form{
+        margin: auto;
+        width: 73%;
+    }
+    .textdiv{
+       padding-left: 5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    form{
+        margin: auto;
+        width: 93%;
+    }
+    .textdiv{
+       padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    form{
+        margin: auto;
+        width: 100%;
+    }
+    .textdiv{
+       padding-left: 0.5rem;
+    }
+    .convert{
+        font-size: .8rem;
+   }
+}
